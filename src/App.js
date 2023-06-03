@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Login/>}/>
-          <Route path="/signup" element={<Signup/>}/>
-          <Route path="/home" element={<Home/>}/>
-          <Route path="/job" element={<JobSearch/>}/>
+          <Route path="/Signup" element={<Signup/>}/>
+          <Route path="/Home" element={<Home/>}/>
+          <Route path="/JobSearch" element={<JobSearch/>}/>
         </Routes>
       </Router>
     </div>

@@ -7,7 +7,7 @@ import { MDBFooter, MDBContainer } from 'mdb-react-ui-kit';
 const styles = {
   pageContainer: {
     backgroundImage:
-      "url('https://media.istockphoto.com/id/1141203331/photo/new-job-search-recruitment-career.jpg?s=612x612&w=0&k=20&c=nLBlb1gN0F-TwWKBqTigrZe72_zGigOxbirtCeIcFXU=')",
+      "url('https://charityvillage.com/wp-content/uploads/2020/06/job_search_feature.png')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     minHeight: '100vh',
@@ -62,6 +62,32 @@ function DeleteRecord() {
   };
 
   return (
+    <div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/Home">Job Seeker</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/Home">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Signup">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/JobSearch">Job Search</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
     <div style={styles.pageContainer}>
       <div style={styles.container}>
         <div className="row">
@@ -89,6 +115,7 @@ function DeleteRecord() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

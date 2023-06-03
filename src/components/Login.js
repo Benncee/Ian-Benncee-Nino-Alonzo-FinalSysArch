@@ -35,7 +35,7 @@ function Login() {
 
   const backgroundStyle = {
     backgroundImage:
-      'url("https://ritecareer.ca/wp-content/uploads/2021/10/jobsearchinfographics-scaled.jpeg")',
+      'url("https://matchub.co/wp-content/uploads/2020/07/Neon-Green-and-Black-Tech-Zoom-Virtual-Background-1-930x620.png")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "100vh",
@@ -44,6 +44,30 @@ function Login() {
 
   return (
     <div style={backgroundStyle}>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/Home">Job Seeker</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/Home">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Signup">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/JobSearch">Job Search</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
       <MDBContainer className="p-3 my-5 d-flex flex-column align-items-center">
         <form style={{ width: "300px" }}>
           <MDBInput

@@ -62,11 +62,35 @@ function Login() {
 
     return (
         <div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/Home">Job Seeker</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/Home">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Signup">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/JobSearch">Job Search</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
             <MDBNavbar expand="lg" light bgColor="white">
                 <MDBContainer>
                     <MDBNavbarBrand>
                         <Link className="navbar-brand" to="/">
-                            Marky Job Search
+                            Job-Seek
                         </Link>
                     </MDBNavbarBrand>
                     <MDBNavbarNav className="justify-content-end">
@@ -153,8 +177,9 @@ function Login() {
                                 </MDBBtn>
                             </MDBCol>
                             <MDBCol md="10" lg="6" className="order-1 order-lg-2 d-flex align-items-center">
-                                <MDBCardImage src="https://hips.hearstapps.com/hmg-prod/images/jhumpa-lahiri-book-quote-1531936024.jpg?resize=480:*" fluid />
-                            </MDBCol>
+  <MDBCardImage src="https://www.socialwork.career/wp-content/uploads/2011/08/take-initiative.png" fluid style={{ width: '600px', height: '600px' }} />
+</MDBCol>
+
                         </MDBRow>
                     </MDBCardBody>
                 </MDBCard>
@@ -162,7 +187,7 @@ function Login() {
             <MDBFooter backgroundColor="light" className="text-center py-3">
         <MDBContainer>
           <p className="mb-0">
-            &copy; 2023 Marky Job Search. All rights reserved. 
+            &copy; Job-Seek 2023. All rights reserved. 
           </p>
         </MDBContainer>
       </MDBFooter>
