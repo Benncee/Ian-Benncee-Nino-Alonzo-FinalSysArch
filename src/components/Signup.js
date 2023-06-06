@@ -63,14 +63,14 @@ function Login() {
     return (
         <div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/Home">Job Seeker</a>
+  <a class="navbar-brand" href="/Home"style={{ marginLeft: '10px' }}>Job Seeker</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="/Home">Home <span class="sr-only"></span></a>
+        <a class="nav-link" href="/Home"style={{ marginLeft: '1050px' }}>Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/">Login</a>
@@ -177,7 +177,7 @@ function Login() {
                                 </MDBBtn>
                             </MDBCol>
                             <MDBCol md="10" lg="6" className="order-1 order-lg-2 d-flex align-items-center">
-  <MDBCardImage src="https://www.socialwork.career/wp-content/uploads/2011/08/take-initiative.png" fluid style={{ width: '600px', height: '600px' }} />
+  <MDBCardImage src="https://chsva.org/wp-content/uploads/2018/03/inspirational-social-worker-quotes-naswe-Lp6pZY-clipart.jpg" fluid style={{ width: '600px', height: '600px' }} />
 </MDBCol>
 
                         </MDBRow>

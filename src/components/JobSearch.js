@@ -7,7 +7,7 @@ import { MDBFooter, MDBContainer } from 'mdb-react-ui-kit';
 const styles = {
   pageContainer: {
     backgroundImage:
-      "url('https://charityvillage.com/wp-content/uploads/2020/06/job_search_feature.png')",
+      "url('https://images.pexels.com/photos/4050320/pexels-photo-4050320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     minHeight: '100vh',
@@ -64,14 +64,14 @@ function DeleteRecord() {
   return (
     <div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/Home">Job Seeker</a>
+  <a class="navbar-brand" href="/Home"style={{ marginLeft: '10px' }}>Job Seeker</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="/Home">Home <span class="sr-only"></span></a>
+        <a class="nav-link" href="/Home"style={{ marginLeft: '1050px' }}>Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/">Login</a>
